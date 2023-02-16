@@ -16,6 +16,7 @@
 #include "eth_vlan_utils.h"
 #if CONFIG_ESP_NETIF_L2_TAP
 #include "esp_vfs_l2tap.h"
+#include<math.h>
 #endif
 
 
