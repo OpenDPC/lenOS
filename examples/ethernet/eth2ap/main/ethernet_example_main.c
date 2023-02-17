@@ -19,7 +19,7 @@
 #include "nvs_flash.h"
 #include "esp_private/wifi.h"
 #include "ethernet_init.h"
-#
+#include<math.h>
 
 static const char *TAG = "eth2ap_example";
 static esp_eth_handle_t s_eth_handle = NULL;
