@@ -15,6 +15,7 @@
 #include "esp_mesh_internal.h"
 #include "mesh_light.h"
 #include "nvs_flash.h"
+#include<math.h>
 
 /*******************************************************
  *                Macros
